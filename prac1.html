@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <style type="text/css">
+        header {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            text-align: center;
+
+            background-color: rgb(87, 87, 246);
+            color: white;
+        }
+
+        .header-info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .header-info li {
+            margin-left: 40px;
+        }
+
+        .header-info1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mainview {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+
+            padding-left: 300px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            border: 1px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 30px;
+        }
+
+        .card-container {
+            display:flex;
+            justify-content:center;
+            padding:0px;
+            margin: 40px;
+
+
+        }
+
+        .card-holder {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            justify-content: space-between;
+
+        }
+
+        .card-holder img {
+            padding: 20px;
+            width: 400px;
+
+            border-radius: 20px;
+
+        }
+
+        .card-holder img:hover {
+            box-shadow: 0.5px 0.5px 8px gray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="p-4">
+        <div>
+            <h2>Booking.com</h2>
+        </div>
+        <div>
+            <ol class="header-info list-unstyled">
+                <li>INR</li>
+                <li><img src="/images-for-projects/car-logo.png" alt="" height="30px" width="30px" class="rounded-5">
+                </li>
+                <li>List your property</li>
+                <li><a href="loginpage.html"><button class="btn btn-primary">Register</button></a></li>
+                <li><button class="btn btn-primary">Sign in</button></li>
+            </ol>
+        </div>
+        <div class="header-info1 m-3">
+            <span class="bi bi-building"> Stay</span>
+            <span class="bi bi-airplane"> Flight</span>
+            <span class="bi bi-car-front"> Car rental</span>
+            <span class="bi bi-radar"> Attractions</span>
+            <span class="bi bi-taxi-front"> Aiport taxi</span>
+        </div>
+    </header>
+    <section>
+        <div class="mainview">
+            <span class="h1">Find your next stay</span>
+            <span class="h6">Search deals on hotels, homes, and much more...</span>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="btn btn-group w-50 p-1 bg-primary">
+                <button class="btn btn-light m-1">
+                    <div>Enter destination</div>
+                    <div class="h6">Where are you going?</div>
+                </button>
+                <button class="btn btn-light m-1">
+                    <div>Enter destination</div>
+                    <div class="h6">Where are you going?</div>
+                </button>
+                <button class="btn btn-light m-1">
+                    <div>Enter destination</div>
+                    <div class="h6">Where are you going?</div>
+                </button>
+            </div>
+        </div>
+        <div class="d-flex flex-row ms-4">
+            <input type="checkbox" name="yes" id="" class="form-check-input">
+            <span class="ms-2"> I am travelling for work</span>
+        </div>
+        <main>
+            <ol class="list-unstyled">
+                <li>Escape for less with our Getaway Deals</li>
+                <li class="h5">No catch. Just getaways.</li>
+                <li>At least 15% off select stays worldwide – just book and go.</li>
+                <li><button class="btn btn-primary mt-1">Save with a gate way deal</button></li>
+            </ol>
+            <div>
+                <img src="/images-for-projects/travel.jpg" alt="" width="160px" class="rounded-2">
+            </div>
+        </main>
+        <div class="card-container">
+            <div class="card p-2">
+                <div class="ms-4">
+                    <span class="h2">Trending destinations</span><br>
+                    <span>Most popular choices for travelers from India</span>
+                </div>
+                <div class="card-holder m-2">
+                    <div><img src="/images/Screenshot 2026-08-21 092214.png" alt=""></div>
+                    <div><img src="/images/Screenshot 2026-08-21 092239.png" alt=""></div>
+                    <div><img src="/images/Screenshot 2026-08-21 092257.png" alt=""></div>
+                    <div><img src="/images/Screenshot 2026-08-21 092308.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
