@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking.com - Transport Charges</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #003580;
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .table-container {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th {
+            background-color: #003580; /* Booking.com Blue */
+            color: white;
+            padding: 14px 18px;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        td {
+            padding: 14px 18px;
+            border-bottom: 1px solid #e7e7e7;
+            color: #333333;
+            font-size: 14px;
+        }
+        tr:hover {
+            background-color: #f2f6fa;
+        }
+        .price {
+            font-weight: bold;
+            color: #008009; /* Booking.com Green */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- VEHICLES TABLE -->
+    <h2>Car Rentals</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Vehicle Type</th>
+                    <th>Capacity</th>
+                    <th>Base Charge (Per Day)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Economy Hatchback (e.g., Maruti Swift)</td>
+                    <td>4 Seats</td>
+                    <td class="price">₹2,500</td>
+                </tr>
+                <tr>
+                    <td>Standard Sedan (e.g., Honda City)</td>
+                    <td>5 Seats</td>
+                    <td class="price">₹3,800</td>
+                </tr>
+                <tr>
+                    <td>Premium SUV (e.g., Toyota Innova)</td>
+                    <td>7 Seats</td>
+                    <td class="price">₹5,500</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- BUSES TABLE -->
+    <h2>Bus Tickets</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Bus Service Type</th>
+                    <th>Amenities</th>
+                    <th>Average Ticket Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Standard Non-AC Sleeper</td>
+                    <td>Charging Port, Water Bottle</td>
+                    <td class="price">₹800</td>
+                </tr>
+                <tr>
+                    <td>Multi-Axle AC Semi-Sleeper</td>
+                    <td>Blanket, Reading Light</td>
+                    <td class="price">₹1,200</td>
+                </tr>
+                <tr>
+                    <td>Premium Volvo AC Sleeper</td>
+                    <td>WiFi, Live Tracking, Snacks</td>
+                    <td class="price">₹1,950</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- FLIGHTS TABLE -->
+    <h2>Flight Bookings</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Cabin Class</th>
+                    <th>Baggage Allowance</th>
+                    <th>Starting Ticket Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Economy Class</td>
+                    <td>15 kg Check-in, 7 kg Cabin</td>
+                    <td class="price">₹5,400</td>
+                </tr>
+                <tr>
+                    <td>Premium Economy</td>
+                    <td>20 kg Check-in, Extra Legroom</td>
+                    <td class="price">₹9,200</td>
+                </tr>
+                <tr>
+                    <td>Business Class</td>
+                    <td>35 kg Check-in, Lounge Access</td>
+                    <td class="price">₹24,500</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>
